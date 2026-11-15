@@ -1,0 +1,7 @@
+#!/bin/sh
+set -e
+if [ "$1" = configure ]; then
+    echo "thinkfan: reboot (or reload thinkpad_acpi) for fan_control=1 to take effect;" >&2
+    echo "thinkfan: then enable with: gnome-extensions enable thinkfan@growlnx" >&2
+fi
+exit 0

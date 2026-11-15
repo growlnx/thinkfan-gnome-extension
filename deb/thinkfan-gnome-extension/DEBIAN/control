@@ -1,0 +1,11 @@
+Package: thinkfan-gnome-extension
+Version: 1.0
+Section: gnome
+Priority: optional
+Architecture: all
+Depends: gnome-shell (>= 48), pkexec | policykit-1
+Maintainer: growlnx <growlnx@protonmail.com>
+Homepage: https://github.com/growlnx/thinkfan-gnome-extension
+Description: Quick Settings fan level selector for ThinkPads
+ GNOME Shell extension that adds a fan slider/menu to Quick Settings,
+ controlling thinkpad_acpi via a polkit-protected helper.

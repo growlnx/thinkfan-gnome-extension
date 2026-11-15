@@ -1,0 +1,14 @@
+#!/bin/sh
+# Set ThinkPad fan level via thinkpad_acpi. Run as root (via pkexec).
+
+case "$1" in
+auto | full-speed | disengaged | [0-7])
+	echo "level $1" >/proc/acpi/ibm/fan
+	exit 0
+	;;
+
+*)
+	echo "invalid level: $1" >&2
+	exit 2
+	;;
+esac

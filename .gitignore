@@ -1,0 +1,9 @@
+# Build output (make deb)
+build/
+*.deb
+*.changes
+*.buildinfo
+
+# gnome-extensions pack
+*.shell-extension.zip
+gschemas.compiled

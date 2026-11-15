@@ -1,0 +1,9 @@
+{
+  "uuid": "thinkfan@growlnx",
+  "name": "ThinkFan Control",
+  "description": "Quick Settings fan level selector for ThinkPads (thinkpad_acpi).",
+  "shell-version": ["48"],
+  "author": "growlnx",
+  "url": "https://github.com/growlnx/thinkfan-gnome-extension",
+  "version": 1
+}
